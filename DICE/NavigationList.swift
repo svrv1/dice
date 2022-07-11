@@ -19,13 +19,7 @@ struct NavigationList: View {
                 VStack(alignment: .center, spacing: 250) {
                     Image("1024")
                         .frame(width: 200, height: 200, alignment: .center)
-                    
-                    
-                    //Text("DICE")
-                      //  .font(.system(size: 72, weight: .bold, design: .rounded))
-                    
-                        //.padding(100)
-                    
+                  
                     
                     NavigationLink(destination: ContentView()) {
                         Text("START")
